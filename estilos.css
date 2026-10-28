@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1534AB;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.instrucoes {
+    text-align: center;
+    margin-bottom: 4%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 0 2px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: initial;
+}
+
+.card-produto {
+    background-color: white;
+    border: 20px outset #1d0499;
+    border-radius: 118px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-produto h3 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-produto p {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-produto span {
+    color: #219150;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+

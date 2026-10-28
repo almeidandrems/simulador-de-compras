@@ -1,0 +1,33 @@
+# Projeto DevBurguer
+
+- **Aluno:** André Almeida
+- **Trilha:** Desenvolvimento Mobile / Web
+
+## Apresentação da Loja
+A **DevBurguer** é uma lanchonete fictícia voltada para desenvolvedores. A página exibe o cardápio com as opções disponíveis e permite que o cliente faça uma simulação do seu pedido calculando o preço total e verificando descontos.
+
+### Produtos e Preços
+1. **X-Burguer Dev:** R$ 19.99
+2. **Batata Frita:** R$ 9.99
+3. **Refrigerante Lata:** R$ 4.99
+
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript
+
+## Como Executar
+1. Clone ou baixe os arquivos do repositório.
+2. Abra o arquivo `index.html` em qualquer navegador web.
+3. Clique no botão **"Simular compra"** e digite as quantidades nos alertas que aparecerem.
+
+## Testes Realizados
+- **Teste 1 (Sem compras):** Digitei `0` para todos os itens. O sistema exibiu a mensagem informando que nenhum produto foi selecionado.
+- **Teste 2 (Compras):** Pedi 1 X-Burguer (R$ 19,99) e 1 Refrigerante (R$ 4,99). Total: R$ 24.97. O sistema calculou o valor correto.
+- **Teste 3 (Compras):** Pedi 2 X-Burguer (R$ 39,98) e 2 Batatas (R$ 19,98 ). Total: R$ 59,95. O sistema aplicou corretamente ## 
+
+Dificuldade Encontrada e Aprendizados
+A maior dificuldade foi garantir que as respostas do `prompt()` fossem convertidas corretamente de texto para número antes de fazer as operações matemáticas. Aprendi a usar a função `Number()` e utilizar `.toFixed(2)` para formatar a saída das casas decimais dos valores em dinheiro.
+
+## Uso de Inteligência Artificial
+A IA foi utilizada como auxílio na estruturação inicial dos arquivos HTML, CSS e JavaScript e no roteiro da documentação. Adaptei as variáveis, nomes de funções e estilização para garantir um código limpo, funcional e alinhado aos tópicos vistos em aula. Testei a simulação com diferentes entradas e valores para verificar a precisão do cálculo.
